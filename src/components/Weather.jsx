@@ -8,7 +8,7 @@ const Weather = () => {
   const [loading, setLoading] = useState(false);
   const [history, setHistory] = useState([]);
 
-  const apiKey = "4312563cef4ee4bae9144ed09df56453";
+  const apiKey = "YOUR_API_KEY_HERE";
 
   const handleSearch = async () => {
     if (!city) return;
